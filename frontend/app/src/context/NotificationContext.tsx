@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useEffect, useRef } from 'r
 import io, { Socket } from 'socket.io-client';
 import { useAuth } from './AuthContext';
 
-const API_URL = 'http://192.168.1.6:5000';
+const API_URL = 'https://smart-finance-yjb0.onrender.com';
 
 interface AppNotification {
   id: string;

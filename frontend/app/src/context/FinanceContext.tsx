@@ -3,7 +3,7 @@ import React, { createContext, useContext, useEffect, useMemo, useState, useCall
 import { Alert } from 'react-native';
 import { useAuth } from './AuthContext';
 
-const API_URL = 'http://192.168.1.6:5000/api';
+const API_URL = 'https://smart-finance-yjb0.onrender.com/api';
 
 export type Transaction = {
   id: number | string;

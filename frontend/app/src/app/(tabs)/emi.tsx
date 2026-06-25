@@ -8,7 +8,7 @@ import { useFinance } from '../../context/FinanceContext';
 import { useAuth } from '../../context/AuthContext';
 import axios from 'axios';
 
-const API_URL = 'http://192.168.1.6:5000/api';
+const API_URL = 'https://smart-finance-yjb0.onrender.com/api';
 
 export default function EMI() {
   const { colors } = useTheme();

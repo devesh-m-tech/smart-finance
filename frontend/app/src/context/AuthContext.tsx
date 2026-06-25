@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_URL = 'http://192.168.1.6:5000/api';
+const API_URL = 'https://smart-finance-yjb0.onrender.com/api';
 
 interface User {
   id: string;

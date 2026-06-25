@@ -9,7 +9,7 @@ import { useAuth } from '../../context/AuthContext';
 import { useFocusEffect } from 'expo-router';
 import axios from 'axios';
 
-const API_URL = 'http://192.168.1.6:5000/api';
+const API_URL = 'https://smart-finance-yjb0.onrender.com/api';
 
 const { width: screenWidth } = Dimensions.get('window');
 

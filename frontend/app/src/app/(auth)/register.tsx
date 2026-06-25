@@ -4,7 +4,7 @@ import { useRouter } from 'expo-router';
 import axios from 'axios';
 import { useAuth } from '../../context/AuthContext';
 
-const API_URL = 'http://192.168.1.6:5000/api';
+const API_URL = 'https://smart-finance-yjb0.onrender.com/api';
 
 export default function Register() {
   const router = useRouter();
