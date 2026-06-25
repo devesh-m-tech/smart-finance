@@ -1,0 +1,6 @@
+{
+  "name": "Smart Finance",
+  "description": "Smart Personal Finance & EMI Manager with a premium design, Room database persistence, custom interactive analytics, and an interactive AI Financial Assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
